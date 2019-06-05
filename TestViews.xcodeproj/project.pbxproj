@@ -13,7 +13,8 @@
 		DA72A68D22905CED003B3C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA72A68C22905CED003B3C52 /* Assets.xcassets */; };
 		DA72A69022905CED003B3C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72A68E22905CED003B3C52 /* LaunchScreen.storyboard */; };
 		DA72A69322905CED003B3C52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA72A69222905CED003B3C52 /* main.m */; };
-		DA72A69B22905FF8003B3C52 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA72A69A22905FF8003B3C52 /* MyView.m */; };
+		DA72A69B22905FF8003B3C52 /* GRPBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA72A69A22905FF8003B3C52 /* GRPBarView.m */; };
+		DAD0668522A7D1BC000CF578 /* GRPBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0668422A7D1BC000CF578 /* GRPBallView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,10 @@
 		DA72A68F22905CED003B3C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA72A69122905CED003B3C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA72A69222905CED003B3C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA72A69922905FF8003B3C52 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		DA72A69A22905FF8003B3C52 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		DA72A69922905FF8003B3C52 /* GRPBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRPBarView.h; sourceTree = "<group>"; };
+		DA72A69A22905FF8003B3C52 /* GRPBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRPBarView.m; sourceTree = "<group>"; };
+		DAD0668322A7D1BC000CF578 /* GRPBallView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRPBallView.h; sourceTree = "<group>"; };
+		DAD0668422A7D1BC000CF578 /* GRPBallView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRPBallView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +64,11 @@
 		DA72A68222905CE9003B3C52 /* TestViews */ = {
 			isa = PBXGroup;
 			children = (
+				DAD0668622A7D365000CF578 /* Views */,
 				DA72A68322905CE9003B3C52 /* AppDelegate.h */,
 				DA72A68422905CE9003B3C52 /* AppDelegate.m */,
 				DA72A68622905CE9003B3C52 /* ViewController.h */,
 				DA72A68722905CE9003B3C52 /* ViewController.m */,
-				DA72A69922905FF8003B3C52 /* MyView.h */,
-				DA72A69A22905FF8003B3C52 /* MyView.m */,
 				DA72A68922905CE9003B3C52 /* Main.storyboard */,
 				DA72A68C22905CED003B3C52 /* Assets.xcassets */,
 				DA72A68E22905CED003B3C52 /* LaunchScreen.storyboard */,
@@ -74,6 +76,17 @@
 				DA72A69222905CED003B3C52 /* main.m */,
 			);
 			path = TestViews;
+			sourceTree = "<group>";
+		};
+		DAD0668622A7D365000CF578 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0668322A7D1BC000CF578 /* GRPBallView.h */,
+				DAD0668422A7D1BC000CF578 /* GRPBallView.m */,
+				DA72A69922905FF8003B3C52 /* GRPBarView.h */,
+				DA72A69A22905FF8003B3C52 /* GRPBarView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA72A69B22905FF8003B3C52 /* MyView.m in Sources */,
+				DA72A69B22905FF8003B3C52 /* GRPBarView.m in Sources */,
 				DA72A68822905CE9003B3C52 /* ViewController.m in Sources */,
 				DA72A69322905CED003B3C52 /* main.m in Sources */,
+				DAD0668522A7D1BC000CF578 /* GRPBallView.m in Sources */,
 				DA72A68522905CE9003B3C52 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

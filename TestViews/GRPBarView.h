@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyView : UIView
+@interface GRPBarView : UIView
 
 - (instancetype)initWithFrame:(CGRect)frame andColor:(UIColor *)color;
 

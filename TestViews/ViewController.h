@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyView.h"
+#import "GRPBarView.h"
+#import "GRPBallView.h"
+
 
 @interface ViewController : UIViewController
 
